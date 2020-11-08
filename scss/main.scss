@@ -139,6 +139,7 @@ border: $secondary-color 3px solid;
         padding: 1.5rem 2.5rem;
         margin-bottom: 3rem;
         @include easeOut;
+        
         &:hover {
             padding: 0.5rem 1.5rem;
             background: $secondary-color;
@@ -147,9 +148,9 @@ border: $secondary-color 3px solid;
                 color: set-text-color($secondary-color);
             }
         }
+    }
 }
 
-}
 .btn {
     display: block;
     padding: 0.5rem 1rem;
@@ -160,6 +161,7 @@ border: $secondary-color 3px solid;
         color: set-text-color($secondary-color);
     }
 }
+
 
 .btn-dark {
   @extend .btn;
